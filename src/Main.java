@@ -5,5 +5,8 @@ public class Main {
 
         Heroi heroi = new Heroi();
         heroi.atacar(Tipo.MAGO);
+        heroi.atacar(Tipo.MONGE);
+        heroi.atacar(Tipo.GUERREIRO);
+        heroi.atacar(Tipo.NINJA);
     }
 }
